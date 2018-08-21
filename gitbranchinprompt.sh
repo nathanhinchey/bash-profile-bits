@@ -16,4 +16,4 @@ parse_git_branch() {
 
 export PS1="\W\[\033[\$(git_color)\]\$(parse_git_branch)\[\033[34m\] $\[\033[00m\] "
 #version with timestamp:
-# export PS1="\W\[\033[94m\] \t\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
+# export PS1="\W\[\033[94m\] \t\[\033[\$(git_color)\]\$(parse_git_branch)\[\033[34m\] $\[\033[00m\] "
