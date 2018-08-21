@@ -1,7 +1,8 @@
 # Git branch in prompt.
 
 git_color() {
-  # I don't know what the expression in the if does :/
+  # `git status --porcelain` returns empty string if the working tree is clean
+  # `2> /dev/null` just discards stderr
   if [[ $(git status --porcelain 2> /dev/null) ]]; then
     echo "33m" #yellow
   else
