@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+this is just XML exported from the macOS terminal; it makes the mac
+terminal look (kinda) like the default Ubuntu terminal. I just used the built
+in customization functions in the terminal and then exported it.
+-->
 <plist version="1.0">
 <dict>
 	<key>ANSIBlueColor</key>
