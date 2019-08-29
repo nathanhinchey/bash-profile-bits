@@ -30,8 +30,7 @@ drama () {
   printf "\e[48;5;0m\e[K"
   printf "\n\e[K"
 	printf "$1\n\e[K"
-  printf "\n\e[K"
-  printf "\e[0m\e[K"
+  printf "\e[0m\n"
 }
 
 alias 80='echo "---------1---------2---------3---------4---------5---------6---------7---------8"'
