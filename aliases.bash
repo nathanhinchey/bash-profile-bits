@@ -1,3 +1,8 @@
+# alias xclip to pbcopy
+if hash xclip 2>/dev/null; then
+  alias pbcopy='xclip -selection clipboard'
+fi
+
 copy_and_print(){
   printf "$1" | pbcopy
   green_on_black='\033[1;40;92m'
